@@ -1,0 +1,232 @@
+body{
+	background-color: brown;
+
+}
+/*******LARGE DEVICES*******/
+@media (min-width: 1200px){
+
+h1{
+	color: orange;
+	size: 20px;
+}
+
+.btn1{
+	color: red;
+	background-color: yellow;
+}
+.btn2{
+	color: red;
+	background-color: yellow;
+}
+.btn3{
+	color: red;
+	background-color: yellow;
+}
+.btn4{
+	color: red;
+	background-color: yellow;
+}
+.btn5{
+	color: red;
+	background-color: yellow;
+}
+.btn6{
+	color: red;
+	background-color: yellow;
+}
+.btn7{
+	color: red;
+	background-color: yellow;
+}
+.btn8{
+	color: red;
+	background-color: yellow;
+}
+.btn9{
+	color: red;
+	background-color: yellow;
+}
+.btn10{
+	color: red;
+	background-color: yellow;
+}
+.btn11{
+	color: red;
+	background-color: yellow;
+}
+.btn12{
+	color: red;
+	background-color: yellow;
+}
+}
+/*******MEDIUM DEVICES*******/
+@media(min-width: 992px) and (max-width: 1199px) {
+	h1{
+	color: orange;
+	size: 20px;
+}
+
+.btn1{
+	color: red;
+	background-color: yellow;
+}
+.btn2{
+	color: red;
+	background-color: yellow;
+}
+.btn3{
+	color: red;
+	background-color: yellow;
+}
+.btn4{
+	color: red;
+	background-color: yellow;
+}
+.btn5{
+	color: red;
+	background-color: yellow;
+}
+.btn6{
+	color: red;
+	background-color: yellow;
+}
+.btn7{
+	color: red;
+	background-color: yellow;
+}
+.btn8{
+	color: red;
+	background-color: yellow;
+}
+.btn9{
+	color: red;
+	background-color: yellow;
+}
+.btn10{
+	color: red;
+	background-color: yellow;
+}
+.btn11{
+	color: red;
+	background-color: yellow;
+}
+.btn12{
+	color: red;
+	background-color: yellow;
+}
+
+}
+/*******SMALL DEVICES*******/
+@media(min-width: 768px) and (max-width: 991px) {
+	h1{
+	color: orange;
+	size: 20px;
+}
+
+.btn1{
+	color: red;
+	background-color: yellow;
+}
+.btn2{
+	color: red;
+	background-color: yellow;
+}
+.btn3{
+	color: red;
+	background-color: yellow;
+}
+.btn4{
+	color: red;
+	background-color: yellow;
+}
+.btn5{
+	color: red;
+	background-color: yellow;
+}
+.btn6{
+	color: red;
+	background-color: yellow;
+}
+.btn7{
+	color: red;
+	background-color: yellow;
+}
+.btn8{
+	color: red;
+	background-color: yellow;
+}
+.btn9{
+	color: red;
+	background-color: yellow;
+}
+.btn10{
+	color: red;
+	background-color: yellow;
+}
+.btn11{
+	color: red;
+	background-color: yellow;
+}
+.btn12{
+	color: red;
+	background-color: yellow;
+}
+
+}
+/******EXTRA SMALL DEVICES*******/
+@media(max-width: 767px) {
+	h1{
+	color: orange;
+	size: 20px;
+}
+
+.btn1{
+	color: red;
+	background-color: yellow;
+}
+.btn2{
+	color: red;
+	background-color: yellow;
+}
+.btn3{
+	color: red;
+	background-color: yellow;
+}
+.btn4{
+	color: red;
+	background-color: yellow;
+}
+.btn5{
+	color: red;
+	background-color: yellow;
+}
+.btn6{
+	color: red;
+	background-color: yellow;
+}
+.btn7{
+	color: red;
+	background-color: yellow;
+}
+.btn8{
+	color: red;
+	background-color: yellow;
+}
+.btn9{
+	color: red;
+	background-color: yellow;
+}
+.btn10{
+	color: red;
+	background-color: yellow;
+}
+.btn11{
+	color: red;
+	background-color: yellow;
+}
+.btn12{
+	color: red;
+	background-color: yellow;
+}
+
+}
