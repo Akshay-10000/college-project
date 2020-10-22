@@ -1,6 +1,6 @@
 body{
-	background-color: brown;
-
+	color: red;
+	background-color: purple;
 }
 /*******LARGE DEVICES*******/
 @media (min-width: 1200px){
@@ -60,7 +60,7 @@ h1{
 	background-color: yellow;
 	width: 345px;
 }
-
+/*
 .btn11{
 	color: red;
 	background-color: yellow;
@@ -69,7 +69,7 @@ h1{
 	color: red;
 	background-color: yellow;
 }
-
+*/
 }
 /*******MEDIUM DEVICES*******/
 @media(min-width: 992px) and (max-width: 1199px) {
@@ -128,7 +128,7 @@ h1{
 	background-color: yellow;
 	width: 345px;
 }
-
+/*
 .btn11{
 	color: red;
 	background-color: yellow;
@@ -137,7 +137,7 @@ h1{
 	color: red;
 	background-color: yellow;
 }
-
+*/
 
 }
 /*******SMALL DEVICES*******/
@@ -197,7 +197,7 @@ h1{
 	background-color: yellow;
 	width: 245px;
 }
-
+/*
 .btn11{
 	color: red;
 	background-color: yellow;
@@ -206,7 +206,7 @@ h1{
 	color: red;
 	background-color: yellow;
 }
-
+*/
 
 }
 /******EXTRA SMALL DEVICES*******/
@@ -266,7 +266,7 @@ h1{
 	background-color: yellow;
 	width: 145px;
 }
-
+/*
 .btn11{
 	color: red;
 	background-color: yellow;
@@ -275,5 +275,5 @@ h1{
 	color: red;
 	background-color: yellow;
 }
-
+*/
 }
