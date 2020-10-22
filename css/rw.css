@@ -1,0 +1,278 @@
+body{
+	background-color: grey;
+}
+/*******LARGE DEVICES*******/
+@media (min-width: 1200px){
+
+h1{
+	color: orange;
+	size: 20px;
+}
+
+.btn1{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn2{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn3{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn4{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn5{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn6{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn7{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn8{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn9{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn10{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+/*
+.btn11{
+	color: red;
+	background-color: yellow;
+}
+.btn12{
+	color: red;
+	background-color: yellow;
+}
+*/
+}
+/*******MEDIUM DEVICES*******/
+@media(min-width: 992px) and (max-width: 1199px) {
+	h1{
+	color: orange;
+	size: 20px;
+}
+
+.btn1{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn2{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn3{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn4{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn5{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn6{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn7{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn8{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn9{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn10{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+/*
+.btn11{
+	color: red;
+	background-color: yellow;
+}
+.btn12{
+	color: red;
+	background-color: yellow;
+}
+*/
+
+}
+/*******SMALL DEVICES*******/
+@media(min-width: 768px) and (max-width: 991px) {
+	h1{
+	color: orange;
+	size: 20px;
+}
+
+.btn1{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn2{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn3{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn4{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn5{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn6{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn7{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn8{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn9{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn10{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+/*
+.btn11{
+	color: red;
+	background-color: yellow;
+}
+.btn12{
+	color: red;
+	background-color: yellow;
+}
+*/
+
+}
+/******EXTRA SMALL DEVICES*******/
+@media(max-width: 767px) {
+	h1{
+	color: orange;
+	size: 20px;
+}
+
+.btn1{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+.btn2{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+.btn3{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+.btn4{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+.btn5{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+.btn6{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+.btn7{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+.btn8{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+.btn9{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+.btn10{
+	color: red;
+	background-color: yellow;
+	width: 145px;
+}
+/*
+.btn11{
+	color: red;
+	background-color: yellow;
+}
+.btn12{
+	color: red;
+	background-color: yellow;
+}
+*/
+}
