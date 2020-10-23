@@ -1,8 +1,11 @@
+
+
+
+/*******LARGE DEVICES*******/
 body{
 	background-color: brown;
 
 }
-/*******LARGE DEVICES*******/
 @media (min-width: 1200px){
 
 h1{
@@ -15,7 +18,22 @@ h1{
 	background-color: yellow;
 	width: 345px;
 }
+.btn101{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
 .btn2{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn201{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn301{
 	color: red;
 	background-color: yellow;
 	width: 345px;
@@ -30,6 +48,16 @@ h1{
 	background-color: yellow;
 	width: 345px;
 }
+.btn401{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn501{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
 .btn5{
 	color: red;
 	background-color: yellow;
@@ -40,7 +68,17 @@ h1{
 	background-color: yellow;
 	width: 345px;
 }
+.btn601{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
 .btn7{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn701{
 	color: red;
 	background-color: yellow;
 	width: 345px;
@@ -50,12 +88,27 @@ h1{
 	background-color: yellow;
 	width: 345px;
 }
+.btn801{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
 .btn9{
 	color: red;
 	background-color: yellow;
 	width: 345px;
 }
+.btn901{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
 .btn10{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn1001{
 	color: red;
 	background-color: yellow;
 	width: 345px;
@@ -66,7 +119,17 @@ h1{
 	background-color: yellow;
 	width: 345px;
 }
+.btn1101{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
 .btn12{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn1201{
 	color: red;
 	background-color: yellow;
 	width: 345px;
@@ -75,6 +138,10 @@ h1{
 }
 /*******MEDIUM DEVICES*******/
 @media(min-width: 992px) and (max-width: 1199px) {
+	body{
+	background-color: brown;
+
+}
 	h1{
 	color: orange;
 	size: 20px;
@@ -137,6 +204,69 @@ h1{
 	width: 345px;
 }
 .btn12{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+
+
+.btn101{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn201{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn301{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn401{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn501{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn601{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn701{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn801{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn901{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn1001{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+
+.btn1101{
+	color: red;
+	background-color: yellow;
+	width: 345px;
+}
+.btn1201{
 	color: red;
 	background-color: yellow;
 	width: 345px;
@@ -146,6 +276,10 @@ h1{
 }
 /*******SMALL DEVICES*******/
 @media(min-width: 768px) and (max-width: 991px) {
+	body{
+	background-color: brown;
+
+}
 	h1{
 	color: orange;
 	size: 20px;
@@ -214,9 +348,76 @@ h1{
 }
 
 
+.btn101{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn201{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn301{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn401{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn501{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn601{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn701{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn801{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn901{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn1001{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+
+.btn1101{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+.btn1201{
+	color: red;
+	background-color: yellow;
+	width: 245px;
+}
+
+
 }
 /******EXTRA SMALL DEVICES*******/
 @media(max-width: 767px) {
+	body{
+	background-color: brown;
+
+}
 	h1{
 	color: orange;
 	size: 20px;
