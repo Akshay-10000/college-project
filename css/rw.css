@@ -217,7 +217,8 @@ h1{
 }
 .btn7{
 	color: red;
-	background-color: yellow;
+	background-color: start-color: white;
+	background-color: end-color:blue;
 	width: 245px;
 }
 .btn8{
