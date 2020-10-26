@@ -1,6 +1,12 @@
 body{
 	color: red;
-	background-color: purple;
+	background-image: url(frback2.jpg);
+	background-color:cover;
+	background-repeat: no-repeat;
+	/*background-size: 1450px;*/
+	
+
+	
 }
 /*******LARGE DEVICES*******/
 @media (min-width: 1200px){
