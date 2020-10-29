@@ -37,6 +37,98 @@
 
 	<br><a href="recepies/fr10.html"><button name="btn10" class="btn10" onclick="alert('you select kitchen garden 10')">Receipe 10 : Baked Parsnip and Carrot Peel Chips</button></a>
 	<a href="https://github.com/Akshay-10000/college-project/raw/gh-pages/recepies/R-10%20)%20Baked%20Parsnip%20and%20Carrot%20Peel%20Chips.docx"><button name="btn1001" class="btn1001" onclick="alert('you select kitchen garden 10')"> DOWNLOAD </button></a>
+
+
+
+
+
+	<div></div>
+	<p>- - L E T'S - C H A T- With - E A S Y - -</p>
+	<div>please use only small letter in chat box</div>
+	<input type="" name="" onchange="respond()">
+	<script type="text/javascript">
+		var known = [
+
+		     ["hello","Hi , I am Easy , you can ask me anything but i will give answer according to me "],
+		     ["hi","Hi , I am Easy , you can ask me anything but i will give answer according to me "],
+		     ["hey","Hi , I am Easy , you can ask me anything but i will give answer according to me "],
+
+		     ["i am *", "Are you *?"],
+		     ["am i *?","yes you are *, my friend"],
+
+		     ["bruised apple sauce", "please press button 1 for getting info. or download the info. file"],
+		     ["overripe banana icecream ", "please press button 2 for getting info. or download the info. file"],
+		     ["candied citrus peel ", "please press button 3 for getting info. or download the info. file"],
+		     ["wrinkled grape and lemon peel breakfast cake", "please press button 4 for getting info. or download the info. file"],
+		     ["candied watermelon rind", "please press button 5 for getting info. or download the info. file"],
+		     ["watermelon rind - white gazpacho soup", "please press button 6 for getting info. or download the info. file"],
+		     ["wiltted lettuce salad", "please press button 7 for getting info. or download the info. file"],
+		     ["romaine cores", "please press button 8 for getting info. or download the info. file"],
+		     ["green sauce", "please press button 9 for getting info. or download the info. file"],
+		     ["baked parship and carrot peel chips ", "please press button 10 for getting info. or download the info. file"],
+		     
+		     
+		     ["say * please","*"],
+		     ["say *", "Say please."],
+		     
+		     ["*"," this information is not available to us, please mail us on -----> akshaypractice786@gmail.com , we will resolve your problem but if you want to choose any method you can choose it from the top. Thank you for being with us"],
+		     
+		     
+		     
+
+		];
+
+		var input = document.querySelector('input');
+		var output = document.querySelector('div');
+
+		function postChat(text,poster) {
+
+			var bubble = document.createElement("p");
+			bubble.innerText = text;
+			bubble.className = poster;
+			output.appendChild(bubble);
+		}
+
+		function respond(){
+			var text = input.value;
+			input.value = "";
+			postChat(text,"user");
+			response = think(text);
+			postChat(response,"bot");
+		}
+
+		function filter(text) {
+			text = text.toLowerCase();
+			return(text);
+
+		}
+
+		function think(user) {
+			user = filter(user);
+			for(var [key, value] of known){
+				if (key.includes('*')) {
+					key = key.split('*');
+
+					if (user.startsWith(key[0]) && user.endsWith(key[1])) {
+						firstIndex = key[0].length;
+						finalIndex = user.lastIndexOf(key[1]);
+						custom = user.slice(firstIndex, finalIndex);
+						return(value.replace('*',custom));
+					}
+				} else if(user == key) {
+					return(value);
+				}
+			}
+			return("What?")
+		}
+	</script>
+
+
+
+
+
+
+
 	
 </body>
 </html>
